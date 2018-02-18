@@ -1,0 +1,91 @@
+{
+  "data": {
+    "lists": [
+      {
+        "id": 303623738,
+        "title": "inbox",
+        "list_type": "inbox"
+      },
+      {
+        "id": 303623789,
+        "title": "Shopping list",
+        "list_type": "list"
+      }
+    ],
+    "tasks": [
+      {
+        "id": 2796791311,
+        "completed": true,
+        "completed_at": "2017-05-22T10:14:57.691Z",
+        "starred": false,
+        "list_id": 303623738,
+        "title": "Task 1"
+      },
+      {
+        "id": 2796791412,
+        "completed": false,
+        "starred": false,
+        "list_id": 303623789,
+        "title": "Task 2",
+        "recurrence_type": "day/week/month/year",
+        "recurrence_count": 1,
+        "due_date": "2018-02-14"
+      },
+      {
+        "id": 2796791413,
+        "completed": false,
+        "starred": true,
+        "list_id": 303623789,
+        "title": "Task 3"
+      }
+    ],
+    "subtasks": [
+      {
+        "id": 1411323409,
+        "task_id": 2796791412,
+        "completed": false,
+        "title": "checklist 1"
+      },
+      {
+        "id": 1411323408,
+        "task_id": 2796791412,
+        "completed": false,
+        "title": "checklist 2"
+      }
+    ],
+    "notes": [
+      {
+        "content": "Comment 1",
+        "task_id": 2796791412
+      },
+      {
+        "content": "Comment 2",
+        "task_id": 2796791413
+      }
+    ],
+    "task_positions": [
+      {
+        "id": 303623738,
+        "values": [
+          2796791311
+        ]
+      },
+      {
+        "id": 303623789,
+        "values": [
+          2796791412,
+          2796791413
+        ]
+      }
+    ],
+    "subtask_positions": [
+      {
+        "id": 2796791412,
+        "values": [
+          1411323409,
+          1411323408
+        ]
+      }
+    ]
+  }
+}
