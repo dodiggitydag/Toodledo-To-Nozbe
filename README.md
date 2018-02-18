@@ -15,6 +15,8 @@ pip install BeautifulSoup4
 python toodledo2nozbe.py toodledo.xml forNozbe.json
 ```
 
+![Successful Execution Example](toodledo2nozbe-example1.png "Successful Execution Example")
+
 ## Contribute
 
 Contributions are always welcome!
