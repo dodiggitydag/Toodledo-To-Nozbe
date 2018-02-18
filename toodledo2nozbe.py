@@ -29,7 +29,7 @@ if __name__ == '__main__':
     data = {}
     data['data'] = {'lists': [], 'tasks': [], 'subtasks': [], 'notes': [], 'task_positions': [], 'subtask_positions': []}
 
-    # Build list of Toodledo: Folders which will become Wunderlist "lists"
+    # Build list of Toodledo Folders which will become Wunderlist lists then Nozbe Projects
     # this first loop is to remove duplicates
     x = []
     for item in soup.findAll('folder'):
